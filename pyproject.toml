@@ -1,0 +1,18 @@
+[project]
+name = "randevu"
+version = "2.0.0"
+authors = [{ name = "TypicalHog" }]
+description = "The official Python implementation of the RANDEVU algorithm"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: The Unlicense (Unlicense)",
+  "License :: OSI Approved :: MIT License",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/TypicalHog/randevu-py"
+Issues = "https://github.com/TypicalHog/randevu-py/issues"
