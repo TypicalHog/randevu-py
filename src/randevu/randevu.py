@@ -14,6 +14,7 @@ rdv_value = rdv(object, date)
 rdvt_value = rdvt(0, object, date)
 
 print(f"Object {object} has RDV{rdv_value} today with RDVT0 at {rdvt_value}")
+
 ```
 """
 

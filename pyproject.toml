@@ -1,9 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "randevu"
-version = "2.0.0"
+version = "2.0.2"
 authors = [{ name = "TypicalHog" }]
 description = "The official Python implementation of the RANDEVU algorithm"
 readme = "README.md"
+license = { file = "LICENSE.md" }
 requires-python = ">=3.8"
 classifiers = [
   "Programming Language :: Python :: 3",
@@ -12,6 +17,17 @@ classifiers = [
   "License :: OSI Approved :: Apache Software License",
   "Operating System :: OS Independent",
 ]
+keywords = [
+  "randevu",
+  "rdv",
+  "rdvt",
+  "universal",
+  "daily",
+  "reminder",
+  "coordination",
+  "blake3",
+]
+dependencies = ["blake3>=0.4.1"]
 
 [project.urls]
 Homepage = "https://github.com/TypicalHog/randevu-py"
